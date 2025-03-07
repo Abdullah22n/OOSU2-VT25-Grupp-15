@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace EntitiesLayer
 {
-    public class Tränare
+    public class Trainer
     {
-        public int TränarId { get; set; }
+        public int TrainerId { get; set; }
         public string Namn { get; set; }
-        public string Specialisering { get; set; }
-        public string Lösenord { get; set; }
+        public string Specialization { get; set; }
+        public string Password { get; set; }
     }
 }
